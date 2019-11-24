@@ -5,7 +5,7 @@ using System.IO;
       
 public class Program{
   public static void Main(){
-    
+    //TO DO refactoring
     
     int fa, fb, num;
     float faf, fbf, fres;
