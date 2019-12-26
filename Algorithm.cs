@@ -28,7 +28,7 @@ public class Program{
       case "+":
         res = fa + fb;
          for(int i = 0; i < num; i++){
-             Console.WriteLine((i+1) + ")" + fa + " + " + fb + " = " + res);
+             Console.WriteLine((i+1) + ") " + fa + " + " + fb + " = " + res);
                 fa++;
                 fb--;
          }
@@ -37,7 +37,7 @@ public class Program{
        case "-":
          res = fa - fb;
          for(int i = 0; i < num; i++){
-             Console.WriteLine((i+1) + ")" + fa + " - " + fb + " = " + res);
+             Console.WriteLine((i+1) + ") " + fa + " - " + fb + " = " + res);
                 fa++;
                 fb++;
          }
@@ -49,7 +49,7 @@ public class Program{
          fres = faf * fbf;
          
          for(int i = 0; i < num; i++){
-             Console.WriteLine((i+1) + ")" + faf + " * " + fbf + " = " + fres);
+             Console.WriteLine((i+1) + ") " + faf + " * " + fbf + " = " + fres);
                 faf = faf*2;
                 fbf = fbf/2;              
          }
@@ -62,7 +62,7 @@ public class Program{
           fres = faf / fbf;
           
           for(int i = 0; i < num; i++){
-             Console.WriteLine((i+1) + ")" + faf + " / " + fbf + " = " + fres);
+             Console.WriteLine((i+1) + ") " + faf + " / " + fbf + " = " + fres);
                 faf = faf*2;
                 fbf = fbf*2;              
          }
